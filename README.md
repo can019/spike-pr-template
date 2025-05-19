@@ -5,7 +5,7 @@
   - workflow는 main이 아닌 다른 브랜치에 존재해도 생김
   - issue template은 main에 존재해야만 활성화 됨
 2. 다중 PR template이 제대로 작동하는지
-  - 다중 PR template이 가능하긴 하지만 PR을 눌렀을 때 뜨지 않고 link뒤에 메뉴얼하게 경로를 붙여야 한다는 글 뿐
+  - 다중 PR template이 가능하긴 하지만 PR을 눌렀을 때 뜨지 않고 link 뒤에 메뉴얼하게 경로를 붙여야 한다는 글 뿐
     - link뒤에 PR-TEMPLATE 경로 작성
 3. 2가 가능할 때 단일 PR-TEMPLATE과 다중 PR-TEMPLATE이 공존 할 때 어떻게 되는지
   - 순서 확인 (단일 생성 후 다중 생성한 경우, 다중 생성 후 단일 생성한 경우 모두 확인)
@@ -15,7 +15,7 @@
 ---
 ### 🔎 주요 내용 요약
 #### ❌ main이 아닌 다른 branch에 존재하는 경우 활성화되지 않음
-#### ❌ Multiple 템플릿을 사용하는 경우 UI에서 템플릿을 선택할 수 있은 창이 나오지 않음
+#### ❌ Multiple 템플릿을 사용하는 경우 템플릿을 선택할 수 있는 UI 창이 나오지 않음
 - ⚠️ `[https://github.com/can019/spike-pr-template/compare/.../...muttiple-1](https://github.com/{owner}/{repo}/compare/{base_branch}...{compare_branch}?expand=1&template={TEMPLATE_FILE_NAME}
 )` 과 같이 마지막에 쿼리 파라미터로 파일을 지정해줘야 template 변경 가능
 #### ✅ Multiple template과 Single template이 모두 있을 때 사용 가능
