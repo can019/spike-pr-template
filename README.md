@@ -16,8 +16,9 @@
 ### 🔎 주요 내용 요약
 #### ❌ main이 아닌 다른 branch에 존재하는 경우 활성화되지 않음
 #### ❌ Multiple 템플릿을 사용하는 경우 템플릿을 선택할 수 있는 UI 창이 나오지 않음
-- ⚠️ `[https://github.com/can019/spike-pr-template/compare/.../...muttiple-1](https://github.com/{owner}/{repo}/compare/{base_branch}...{compare_branch}?expand=1&template={TEMPLATE_FILE_NAME}
-)` 과 같이 마지막에 쿼리 파라미터로 파일을 지정해줘야 template 변경 가능
+- ⚠️ `[https://github.com/can019/spike-pr-template/compare/.../...?expand=1&template=multiple1.md]`과 같이 마지막에 쿼리 파라미터로 파일을 지정해줘야 template 변경 가능
+- **양식:** `https://github.com/{owner}/{repo}/compare/{base_branch}...{compare_branch}?expand=1&template={TEMPLATE_FILE_NAME}
+` 
 #### ✅ Multiple template과 Single template이 모두 있을 때 사용 가능
 #### ✅ Multiple과 Single template 생성 순서에 상관 없음
 - Multiple 생성 -> Single 생성 test ✔️
