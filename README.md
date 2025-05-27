@@ -23,7 +23,7 @@
 #### ✅ Multiple과 Single template 생성 순서에 상관 없음
 - Multiple 생성 -> Single 생성 test ✔️
 - Single 생성 -> Multiple 생성 test ✔️
-- 템플릿 생성 시 간혹 생성 순서에 따라 작동하지 않는 솔루션들이 있어 테스트해보았음
+- 간혹 생성 순서에 따라 작동하지 않는 라이브러리들이 있어 테스트해보았음
   
 ---
 
